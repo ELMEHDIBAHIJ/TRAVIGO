@@ -43,10 +43,11 @@
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-end;
-	align-items:flex-start;
+	align-items:center;
 	/* padding-right: 10%; */
 	margin-top: 6%;
 	margin-left: 21%;
+
 }
 .form2 textarea{
 	
@@ -57,6 +58,23 @@
 	resize: none;
 	width: 90%;
 	height: 150px;
+	align-self: flex-start;
+}
+.form2 label{
+	align-self: flex-start;
+}
+.form2 button{
+	padding: 10px;
+	background-color: #4A51EA;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	margin-top: 10px;
+	cursor: pointer;
+}
+.form2 button:hover{
+	background-color: #fff;
+	color: #4A51EA;
 }
 
 
